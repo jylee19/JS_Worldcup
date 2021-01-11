@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.image-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#fifa-logo{
+    height: 200px;
+}
+
+.main-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.select-year{
+    width: 175px;
+    height: 35px;
+    background: black;
+    color: #015096;
+}
+
+.select-year:active,
+.select-year:focus{
+    outline: none;
+}
+
+.select-year:hover{
+    cursor: pointer;
+    background: #015096;
+    color: white;
+}
+
+#search-submit:active,
+#search-submit:focus{
+    outline: none;
+}
+
+#search-submit{
+    height: 35px;
+    width: 100px;
+    background-color: black;
+    color: #015096;
+    border: solid;
+    border-color: #767676;
+    border-width: 1px;
+}
+
+#search-submit:hover{
+    cursor: pointer;
+    background:#015096;
+    color: white;
+}
